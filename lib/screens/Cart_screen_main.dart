@@ -24,7 +24,6 @@ class _Cart_ScreenState extends State<Cart_Screen> {
       backgroundColor: Colors.grey[300], // Set the app bar color
       bottomNavigationBar: BottomAppBar(
         height: 65,
-        // color: Colors.white60,
         shape: const CircularNotchedRectangle(),
         notchMargin: 4.0,
         child: Row(
@@ -43,11 +42,7 @@ class _Cart_ScreenState extends State<Cart_Screen> {
             IconButton(
               icon: const Icon(Icons.shopping_cart),
               onPressed: () {
-                // // Navigate to Cart screen
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => Cart_Screen()),
-                // );
+
               },
             ),
             IconButton(

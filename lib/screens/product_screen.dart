@@ -57,11 +57,7 @@ class _HomeViewState extends State<HomeView> {
             IconButton(
               icon: Icon(Icons.list),
               onPressed: () {
-                // Navigate to Products screen
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => HomeView()),
-                // );
+
               },
             ),
           ],
@@ -140,23 +136,7 @@ class _HomeViewState extends State<HomeView> {
                                   },
                                 ),
                               ]),
-                          // child: ListTile(
-                          //   leading: Image.network(todo.completed),
-                          //   title: Text(todo.title),
-                          //   subtitle: Column(
-                          //     crossAxisAlignment: CrossAxisAlignment.start,
-                          //     children: [
-                          //       Text("Price: ${todo.price}"),
-                          //       Text("Qty: ${todo.qty}")
-                          //     ],
-                          //   ),
-                          //   trailing: IconButton(
-                          //     icon: const Icon(Icons.delete),
-                          //     onPressed: () {
-                          //       _showDeleteConfirmationDialog(context, todo);
-                          //     },
-                          //   ),
-                          // ),
+
                         ),
                       );
                     },

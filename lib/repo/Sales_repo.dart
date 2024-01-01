@@ -32,25 +32,5 @@ class FirestoreSalesService {
     });
   }
 
-//   Future<void> addTodo(Todo todo) {
-//     return _todosCollection.add({
-//       'title': todo.title,
-//       'completed': todo.completed,
-//       'price': todo.price,
-//       'qty': todo.qty,
-//     });
-//   }
 
-//   Future<void> updateTodo(Todo todo) {
-//     return _todosCollection.doc(todo.id).update({
-//       'title': todo.title,
-//       'completed': todo.completed,
-//       'price': todo.price,
-//       'qty': todo.qty,
-//     });
-//   }
-
-//   Future<void> deleteTodo(String todoId) {
-//     return _todosCollection.doc(todoId).delete();
-//   }
 }

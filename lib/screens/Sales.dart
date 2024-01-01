@@ -123,71 +123,7 @@ class _SalesViewState extends State<SalesView> {
                         ),
                       );
 
-                      // return Card(
-                      //   color: Colors.white60,
-                      //   elevation: 2,
-                      //   margin:
-                      //       EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-                      //   child: ListTile(
-                      //     title: Column(
-                      //       crossAxisAlignment: CrossAxisAlignment.start,
-                      //       children: [
-                      //         Text(
-                      //           'Customer Name: ${sales.username}',
-                      //           style: TextStyle(
-                      //             fontWeight: FontWeight.bold,
-                      //             fontSize: 16,
-                      //           ),
-                      //         ),
-                      //         SizedBox(height: 10),
-                      //         Text(
-                      //           'Subtotal: ${sales.subtotal}',
-                      //           style: TextStyle(fontSize: 14),
-                      //         ),
-                      //         SizedBox(height: 10),
-                      //         Text(
-                      //           'Items:',
-                      //           style: TextStyle(
-                      //               fontSize: 14, fontWeight: FontWeight.bold),
-                      //         ),
-                      // Displaying Todo details
-                      // ListView.builder(
-                      //   shrinkWrap: true,
-                      //   itemCount: sales.todos.length,
-                      //   itemBuilder: (context, index) {
-                      //     final todo = sales.todos[index];
 
-                      // return Padding(
-                      //   padding: const EdgeInsets.only(left: 16.0),
-                      //   child: Column(
-                      //     crossAxisAlignment:
-                      //         CrossAxisAlignment.start,
-                      //     children: [
-                      //       Text(
-                      //         'Title: ${todo.title}',
-                      //         style: TextStyle(fontSize: 14),
-                      //       ),
-                      //       Text(
-                      //         'Completed: ${todo.completed}',
-                      //         style: TextStyle(fontSize: 14),
-                      //       ),
-                      //       Text(
-                      //         'Price: ${todo.price}',
-                      //         style: TextStyle(fontSize: 14),
-                      //       ),
-                      //       Text(
-                      //         'Quantity: ${todo.qty}',
-                      //         style: TextStyle(fontSize: 14),
-                      //       ),
-                      //     ],
-                      //   ),
-                      // );
-                      // },
-                      // ),
-                      //       ],
-                      //     ),
-                      //   ),
-                      // );
                     },
                   ),
                 ),

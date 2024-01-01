@@ -17,14 +17,7 @@ class OrderSummary extends StatelessWidget {
             children: [
               Stack(
                 children: <Widget>[
-                  // Container(
-                  //   width: MediaQuery.of(context).size.width,
-                  //   height: 60,
-                  //   alignment: Alignment.bottomCenter,
-                  //   decoration: BoxDecoration(
-                  //     color: Colors.black.withAlpha(50),
-                  //   ),
-                  // ),
+
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
                     child: Container(

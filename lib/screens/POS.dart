@@ -186,59 +186,7 @@ class _POSState extends State<POS> {
                 ),
               ],
             );
-            // ListView.builder(
-            //   itemCount: todos.length,
-            //   itemBuilder: (context, index) {
-            //     final todo = todos[index];
-            //     return ListTile(
-            //       title: Container(
-            //         padding: EdgeInsets.all(16),
-            //         decoration: BoxDecoration(
-            //           color: Colors.blueGrey[100], // Set the box color
-            //           borderRadius: BorderRadius.circular(10),
-            //         ),
-            //         child: Column(
-            //           crossAxisAlignment: CrossAxisAlignment.start,
-            //           children: [
-            //             Text(
-            //               todo.title,
-            //               style: TextStyle(
-            //                 fontSize: 18,
-            //                 fontWeight: FontWeight.bold,
-            //               ),
-            //             ),
-            //             Text(
-            //               'Price: ${todo.price}',
-            //               style: TextStyle(fontSize: 16),
-            //             ),
-            //             Text(
-            //               'Quantity: ${todo.qty}',
-            //               style: TextStyle(fontSize: 16),
-            //             ),
-            //           ],
-            //         ),
-            //       ),
-            //       trailing: BlocBuilder<CartBloc, CartState>(
-            //         builder: (context, state) {
-            //           if (state is CartLoading) {
-            //             return CircularProgressIndicator();
-            //           }
-            //           if (state is CartLoaded) {
-            //             return IconButton(
-            //               icon: const Icon(Icons.add),
-            //               onPressed: () {
-            //                 _cartBloc.add(AddProduct(todo));
-            //                 _showItemAddedSnackBar(context, todo.title);
-            //               },
-            //             );
-            //           } else {
-            //             return Text("An error occurred");
-            //           }
-            //         },
-            //       ),
-            //     );
-            //   },
-            // );
+
           } else if (state is TodoOperationSuccess) {
             _todoBloc.add(LoadTodos()); // Reload todos
             return Container(); // Or display a success message

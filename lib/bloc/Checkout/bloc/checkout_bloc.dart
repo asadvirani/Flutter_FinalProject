@@ -8,9 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'dart:async';
 
 class CheckoutBloc extends Bloc<CheckoutEvent, CheckoutState> {
-  // CheckoutBloc(this._firestoreService) : super(TodoInitial()) {
   final CartBloc _cartBloc;
-  // final CheckoutBloc checkoutBloc;
 
   final checkout_repo _checkoutRepository;
   StreamSubscription? _cartSubscription;

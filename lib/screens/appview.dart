@@ -17,17 +17,11 @@ class MyAppView extends StatelessWidget {
       title: 'PROJECT',
       theme: ThemeData(
         colorScheme: const ColorScheme.light(
-          //scaffold => body
-          // background: Colors.grey[300],
-          // onBackground: Colors.amber,
-          //icons
+
           primary: Colors.blueGrey,
-          // onPrimary: Colors.amber,
-          // secondary: Color.fromRGBO(244, 143, 177, 1),
-          // onSecondary: Colors.white,
-          // tertiary: Color.fromRGBO(255, 204, 128, 1),
+
           error: Colors.red,
-          // outline: Color(0xFF424242)
+
         ),
       ),
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(

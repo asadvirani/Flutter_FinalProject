@@ -80,13 +80,6 @@ class CartBloc extends Bloc<CartEvent, CartState> {
   }
 }
 
-// void _onEmptyCart(
-//   event,
-//   emit,
-// ) {
-//   emit(CartLoaded(cart: const Cart(products: [])));
-
-// }
 
 
 
